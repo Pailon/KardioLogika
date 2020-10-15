@@ -6554,10 +6554,9 @@
                     </div>
                 </div>
 
-                <div class="tab-bode october">
+                <div class="tab-bode october" style="background-color: #F2F6F9;">
                     <div class="tab active" data-tab-name="month-publication">
                         <section class="about-preparation-section container-september-for-content">
-<!--asdasd-->
                                 <h3>Стабильная стенокардия: достаточно ли только клинических рекомендаций?</h3>
                                 <div>
                                     <div class="row">
@@ -6820,7 +6819,7 @@
 
                                         </div>
                                         <div class="october-title"><p>Предуктал® ОД 80 (триметазидин)</p></div>
-                                        <div class="row" style="margin-top: 30px;">
+                                        <div class="row" style="margin-top: 30px; padding: 0 30px">
                                             <div class="col-sm-4">
                                                 <img style="display: block; width: 80%; margin: 0 auto"
                                                      src="./image/Preductal_OD_60_30.jpg" alt="preductal">
@@ -6850,20 +6849,45 @@
                                                 стадии заболевания5.</p>
 
                                         </div>
-                                        <div class="button-box-october">
-                                            <div class="button-october">
-                                                <p class="button-october-text">Смотреть досье
-                                                    <br/>препарата</p>
-                                            </div>
-                                            <div class="button-october">
-                                                <p class="button-october-text">Ответить на
-                                                    вопросы <br/>викторины</p>
-                                            </div>
-                                            <div class="button-october">
-                                                <p class="button-october-text" >Смотреть видео с
-                                                    <br/>экспертом</p>
-                                            </div>
+                                        <div class="news-list news-list-april" style="justify-content: space-between !important;">
+                                            <a class="news-item" href="#" id="previous-article-october" style="width: 28%">
+                                                <h4 class="title" style="color: rgb(238, 98, 35);">Читать предыдущий выпуск</h4>
+                                            </a>
+                                            <a class="news-item" href="#" id="answerQuiz-october" style="width: 28%">
+                                                <h4 class="title" style="color: rgb(238, 98, 35);">Ответить на вопросы викторины</h4>
+                                            </a>
+                                            <a class="news-item" href="#" id="expertVideo-october" style="width: 28%">
+                                                <h4 class="title" style="color: rgb(238, 98, 35);">Cмотреть видео с экспертом</h4>
+                                            </a>
                                         </div>
+                                        <script>
+                                            $(document).ready(function () {
+                                                $('#answerQuiz-october').click(function () {
+                                                    $('[data-tab="month-quiz"]').each(function () {
+                                                        $(this).click();
+                                                    });
+                                                    $('html, body').stop().animate({
+                                                        scrollTop: $('[data-tab-name="month-quiz"]').closest('.tabset').offset().top
+                                                    }, 700);
+                                                });
+                                                $('#previous-article').click(function () {
+                                                    $('[data-month="september"]').each(function () {
+                                                        $(this).click();
+                                                    });
+                                                    $('html, body').stop().animate({
+                                                        scrollTop: $('[data-tab-name="month-publication"]').closest('.tabset').offset().top
+                                                    }, 700);
+                                                });
+                                                $('#expertVideo-october').click(function () {
+                                                    $('[data-tab="expert-opinion"]').each(function () {
+                                                        $(this).click();
+                                                    });
+                                                    $('html, body').stop().animate({
+                                                        scrollTop: $('[data-tab-name="expert-opinion"]').closest('.tabset').offset().top
+                                                    }, 700);
+                                                });
+                                            });
+                                        </script>
                                         <div class="container"
                                              style="margin-top: 30px; border: 1px solid; border-radius: 30px;">
                                             <p style="text-align: center; margin-top: 5px;">Таблица: динамика
