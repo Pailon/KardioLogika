@@ -5728,7 +5728,10 @@ img.mobile-marafon, .mobile-marafon-text {
 }
 
 .terapia-text-october{
-    margin: 20px 50px 0 30px;
+    margin: 20px 0px 0 -55px;
+}
+.text-october-magazin_page{
+    margin: 0px 83px 0px -83px;
 }
 
 .terapia-text-last-october{
@@ -5741,7 +5744,7 @@ img.mobile-marafon, .mobile-marafon-text {
 }
 
 .ul-twoel-li-october{
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .text-tabletki-october{
@@ -5749,7 +5752,11 @@ img.mobile-marafon, .mobile-marafon-text {
 }
 
 .oda-text-october{
-    margin-top: 30px;
+    margin:30px 0px 0px -30px;
+}
+
+.text-october-oda-graf{
+    margin:0px 30px 0px -30px;
 }
 
 .text-other-formula-october{
@@ -5785,22 +5792,26 @@ img.mobile-marafon, .mobile-marafon-text {
 }
 
 .ul-twoel-october{
-    margin-right: 60px;
+    margin-left: -70px;
 }
 
 .p-text-other-tabl{
-    margin-left:50px;
-    margin-right: 17px;
+    margin-left:-30px;
 }
 
 .p-text-other-graf{
     font-size: 16px;
-    margin: 20px 30px;
+    margin: 20px 0px;
 }
 
 .p-text-other-trime{
     font-weight: normal;
-    padding: 0 30px 10px 30px;
+    padding: 0 0px 10px 30px;
+}
+
+.timetazidin-text-october{
+    font-weight: normal;
+    margin: 0 0 0 15px;
 }
 
 .october-title1{
@@ -5848,7 +5859,9 @@ img.mobile-marafon, .mobile-marafon-text {
     margin-top: 40px;
 }
 
-
+.main-title-october{
+    margin:0px 0px 0px -30px
+}
 
 
 .button-box-october{
@@ -5865,17 +5878,27 @@ img.mobile-marafon, .mobile-marafon-text {
 
 .october-blue-text{
     border-radius:10px;
-    margin: 5px 30px;
+    margin: 5px 0px 5px 30px;
     margin-bottom: 25px;
     background-color: #DCE6F2;
     color: black;
-    padding: 20px 0px 20px 40px;
+    padding: 20px 10px 20px 40px;
+    font-size: 18px
+}
+
+.october-blue-text-first{
+    border-radius:10px;
+    margin: 5px 0px;
+    margin-bottom: 25px;
+    background-color: #DCE6F2;
+    color: black;
+    padding: 20px 10px 20px 40px;
     font-size: 18px
 }
 
 .october-blue-text-last{
     border-radius:10px;
-    margin: 5px 36px;
+    margin: 5px -15px;
     margin-bottom: 25px;
     background-color: #DCE6F2;
     color: black;
@@ -5895,7 +5918,13 @@ img.mobile-marafon, .mobile-marafon-text {
 .img-last-table-october{
     width: 80%;
     display: block;
-    margin: 0 auto
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.img-formula-label-october{
+    text-align: center;
+    margin-top: -27px;
 }
 
 .literal-last-table-october{
@@ -5915,6 +5944,8 @@ img.mobile-marafon, .mobile-marafon-text {
     width: 80%;
     border:1px solid;
     border-radius: 10px;
+    display: block;
+    margin: 0 auto;
 }
 
 .img-preductal-october{
@@ -6040,6 +6071,9 @@ img.mobile-marafon, .mobile-marafon-text {
     .cont-prep-october{
         margin-bottom: 130px;
     }
+    .oda-text-october{
+        padding-left: 40px;
+    }
 }
 
 @media (max-width: 687px) {
@@ -6049,11 +6083,22 @@ img.mobile-marafon, .mobile-marafon-text {
 }
 @media (max-width: 605px) {
     .cont-prep-october{
-        margin-bottom: 450px;
+        margin-bottom: 100px;
     }
+
+    .september-doctors{
+        display: none;
+    }
+
+    .img-formula-label-october{
+        font-size: 10px;
+        margin-top: -20px;
+    }
+
+
 }
 
-@media (max-width: 575px) {
+@media (max-width: 576px) {
     .cont-prep-october{
         margin-bottom: 30px;
     }
@@ -6071,6 +6116,14 @@ img.mobile-marafon, .mobile-marafon-text {
     }
     .img-preductal-october{
         margin: 30px auto
+    }
+    .img-formula-october{
+        display: block;
+        margin: 0 auto;
+    }
+    .cont-prep-october{
+        margin-bottom: 100px;
+        margin-left: 55px;
     }
 }
 

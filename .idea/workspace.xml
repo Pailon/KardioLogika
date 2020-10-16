@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="97398e1d-8eb0-43fb-91cb-bd0f6c2f03f8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +57,7 @@
       <workItem from="1602664278354" duration="19671000" />
       <workItem from="1602702943058" duration="1139000" />
       <workItem from="1602745506974" duration="13446000" />
-      <workItem from="1602829615506" duration="3869000" />
+      <workItem from="1602829615506" duration="10000000" />
     </task>
     <servers />
   </component>
@@ -68,5 +69,9 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2704" y="440" key="Github.CreateGistDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602703293729" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1602847840249">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602847840249" />
   </component>
 </project>
