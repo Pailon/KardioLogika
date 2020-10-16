@@ -5745,6 +5745,7 @@ img.mobile-marafon, .mobile-marafon-text {
 
 .ul-twoel-li-october{
     font-size: 16px;
+    margin-right: 20px;
 }
 
 .text-tabletki-october{
@@ -5780,6 +5781,7 @@ img.mobile-marafon, .mobile-marafon-text {
     width: 80%;
     display: block;
     margin: 0 auto;
+    float: left;
     margin-bottom: 20px;
 }
 .october-span-orange{
@@ -5840,8 +5842,12 @@ img.mobile-marafon, .mobile-marafon-text {
     top:2px
 }
 
+.cont-prep-ul1-october{
+    line-height: 7px;
+}
+
 .cont-prep-ul2-october{
-    line-height: 2px;
+    line-height: 7px;
 }
 
 .cont-prep-title-october{
@@ -5854,9 +5860,9 @@ img.mobile-marafon, .mobile-marafon-text {
     background-color: #DCE6F2;
     border-radius: 25px;
     padding: 25px 0 0px 15px;
-    font-size: 14px;
-    margin-bottom: 100px;
-    margin-top: 40px;
+    font-size: 16px;
+    margin-bottom: 50px;
+    margin-top: 0px;
 }
 
 .main-title-october{
@@ -5870,6 +5876,7 @@ img.mobile-marafon, .mobile-marafon-text {
 
 .october-graf1{
     width: 100%;
+    float: right;
 }
 
 .first-text-october{
@@ -5908,12 +5915,12 @@ img.mobile-marafon, .mobile-marafon-text {
 
 .last-table-october{
     margin-top: 30px;
-    border: 1px solid;
+    border: 1px solid #969696;
     border-radius: 30px;
 }
 .title-last-table-october{
     text-align: center;
-    margin-top: 5px;
+    margin-top: 20px;
 }
 .img-last-table-october{
     width: 80%;
@@ -5933,11 +5940,20 @@ img.mobile-marafon, .mobile-marafon-text {
 }
 
 .img-text-page-october{
-    width: 80%;
+    width: 100%;
+    float: right;
+}
+
+.row-preductal-text-october{
+    line-height: 18px;
+}
+.row-preductal-text-ul-october{
+    margin: 0px 0px 0px 38px;
 }
 
 .img-tabletki-october{
-    width: 80%
+    width: 80%;
+    float: right;
 }
 
 .img-formula-october{
@@ -5950,8 +5966,9 @@ img.mobile-marafon, .mobile-marafon-text {
 
 .img-preductal-october{
     display: block;
-    width: 80%;
-    margin: 0 auto
+    width: 100%;
+    margin: 0 auto;
+    float: left;
 }
 
 @media (max-width: 1024px) {
