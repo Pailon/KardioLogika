@@ -5731,7 +5731,7 @@ img.mobile-marafon, .mobile-marafon-text {
     margin: 20px 0px 0 -55px;
 }
 .text-october-magazin_page{
-    margin: 0px 83px 0px -76px;
+    margin: 0px 83px 0px -83px;
 }
 
 .terapia-text-last-october{
@@ -6100,6 +6100,9 @@ img.mobile-marafon, .mobile-marafon-text {
     .img-formula-label-october{
         font-size: 17px;
         margin-top: -28px;
+    }
+    .text-october-magazin_page{
+        margin: 0px 83px 0px -76px;
     }
 }
 
