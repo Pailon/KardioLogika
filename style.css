@@ -5876,7 +5876,8 @@ img.mobile-marafon, .mobile-marafon-text {
 
 .october-graf1{
     width: 100%;
-    float: right;
+    /*float: right;*/
+    margin-left: 30px;
 }
 
 .first-text-october{
@@ -5971,6 +5972,16 @@ img.mobile-marafon, .mobile-marafon-text {
     float: left;
 }
 
+.cont-prep-title-october {
+    font-size: 21px;
+}
+.october-ul-list > ul {
+    font-size: 16px;
+}
+.cont-prep-title-ul-october{
+    font-size: 16px;
+}
+
 @media (max-width: 1024px) {
     .october-ul-list > ul {
         line-height: 19px;
@@ -6052,6 +6063,9 @@ img.mobile-marafon, .mobile-marafon-text {
     .cont-prep-title-october{
         font-size: 13px;
     }
+    .october-graf1{
+        margin-left: 23px;
+    }
 }
 
 @media (max-width: 842px) {
@@ -6119,11 +6133,27 @@ img.mobile-marafon, .mobile-marafon-text {
     .cont-prep-october{
         margin-bottom: 30px;
     }
+
+    .cont-prep-title-october {
+        font-size: 21px;
+    }
+    .october-ul-list > ul {
+        font-size: 16px;
+    }
+    .cont-prep-title-ul-october{
+        font-size: 16px;
+    }
     .img-text-page-october{
         margin-bottom: 30px;
+        display: block;
+        margin: 0 auto;
+        float:none;
     }
     .img-tabletki-october{
         margin-bottom: 30px;
+        display: block;
+        margin: 0 auto;
+        float:none;
     }
     .img-graf-october{
         margin-bottom: 30px;
@@ -6141,6 +6171,9 @@ img.mobile-marafon, .mobile-marafon-text {
     .cont-prep-october{
         margin-bottom: 100px;
         margin-left: 55px;
+    }
+    .october-graf1{
+        margin-left: 0px;
     }
 }
 
