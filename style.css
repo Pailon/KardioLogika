@@ -6051,7 +6051,39 @@ img.mobile-marafon, .mobile-marafon-text {
         margin-bottom: 40px;
     }
     .first-text-october{
-        padding-left: 0;
+        padding-left: 55px;
+    }
+    .text-october-oda-graf {
+        margin: 0px 30px 0px -20px;
+    }
+
+    .text-other-men-october{
+        margin-left: -40px;
+    }
+
+    .p-text-other-tabl{
+        margin-left: -20px;
+    }
+
+    .timetazidin-text-october{
+        margin-left: -20px;
+    }
+
+    .text-other-formula-october{
+        margin-left: -40px;
+    }
+
+    .october-blue-text{
+        margin-left: -10px;
+    }
+
+    .p-text-other-trime{
+        margin-left: -35px;
+    }
+
+    .img-formula-label-october{
+        font-size: 17px;
+        margin-top: -28px;
     }
 }
 
