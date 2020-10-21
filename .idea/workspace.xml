@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="97398e1d-8eb0-43fb-91cb-bd0f6c2f03f8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +30,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mirvracha" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../User-pages" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -57,7 +57,14 @@
       <workItem from="1602702943058" duration="1139000" />
       <workItem from="1602745506974" duration="13446000" />
       <workItem from="1602829615506" duration="12964000" />
-      <workItem from="1602916055315" duration="9509000" />
+      <workItem from="1602916055315" duration="9674000" />
+      <workItem from="1603091945038" duration="20000" />
+      <workItem from="1603102700438" duration="183000" />
+      <workItem from="1603103074209" duration="821000" />
+      <workItem from="1603128893685" duration="1284000" />
+      <workItem from="1603177001871" duration="17000" />
+      <workItem from="1603178261868" duration="2753000" />
+      <workItem from="1603274191825" duration="2964000" />
     </task>
     <servers />
   </component>
@@ -65,6 +72,11 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1603177016557">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1603177016557" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603091961612" />
     <state x="2704" y="440" key="Github.CreateGistDialog" timestamp="1602703293729">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
